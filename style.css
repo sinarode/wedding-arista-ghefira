@@ -1749,7 +1749,7 @@ html, body {
     position: absolute;
     inset: 0;
     /* Gradasi gelap dari transparan di atas ke pekat di bawah, biar teks tetap terbaca */
-    background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.35) 45%, rgba(0,0,0,0.9) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.35) 45%, rgb(0, 0, 0) 100%);
 }
 
 .closing-content {
