@@ -1,6 +1,6 @@
 const CONFIG = {
     // URL website undangan yang sudah live (dipakai oleh generator.html untuk membuat link)
-    baseUrl: "https://aris-ghefira.vercel.app/",
+    baseUrl: "https://wedding-arista-ghefira.vercel.app/",
 
     // Pengaturan Foto
     images: [
