@@ -88,6 +88,12 @@ const CONFIG = {
         }
     },
 
+    // Pengaturan Bagian Penutup (tampil setelah kolom ucapan/wish)
+    closing: {
+        photo: "Foto 7.jpg", // Ganti dengan foto pasangan yang mau ditampilkan
+        message: "Suatu kebahagiaan & kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir dan memberikan do'a restu kepada kami"
+    },
+
     // Pengaturan Musik
     musicUrl: "musik.mp3", // Pastikan file lagu berada di folder yang sama
 
