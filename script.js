@@ -595,7 +595,26 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // ==========================================
-    // 19. WISH SECTION & SPREADSHEET LOGIC
+    // 19. CLOSING SECTION
+    // ==========================================
+    if (CONFIG.closing) {
+        const closingImg = document.getElementById("closing-img");
+        const closingNames = document.getElementById("closing-names");
+        const closingMessage = document.getElementById("closing-message");
+
+        if (closingImg && CONFIG.closing.photo) {
+            closingImg.src = CONFIG.closing.photo;
+        }
+        if (closingNames) {
+            closingNames.innerText = CONFIG.text.namaPasangan;
+        }
+        if (closingMessage) {
+            closingMessage.innerText = CONFIG.closing.message;
+        }
+    }
+
+    // ==========================================
+    // 20. WISH SECTION & SPREADSHEET LOGIC
     // ==========================================
     let isFetchingWishes = false;
 
@@ -710,6 +729,3 @@ document.addEventListener("DOMContentLoaded", function () {
             btn.disabled = false;
         });
     };
-
-    // Muat ucapan yang sudah ada saat halaman pertama kali dibuka
-    loadWishes();
