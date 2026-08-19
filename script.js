@@ -416,7 +416,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Ambil data dari CONFIG
-        const akad = CONFIG.eventDetails.akad;
+        const resepsi = CONFIG.eventDetails.resepsi;
         
         // ==========================================
         // LOGIKA COUNTDOWN 
@@ -428,7 +428,7 @@ document.addEventListener("DOMContentLoaded", function () {
         };
         
         // Set target date dari config (contoh: 24 Juli 2026)
-        const targetDate = new Date(akad.year, bulanIndex[akad.month.toLowerCase()], akad.date).getTime();
+        const targetDate = new Date(resepsi.year, bulanIndex[resepsi.month.toLowerCase()], resepsi.date).getTime();
 
         const timer = setInterval(function() {
             const now = new Date().getTime();
