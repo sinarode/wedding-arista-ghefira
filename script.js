@@ -710,3 +710,6 @@ document.addEventListener("DOMContentLoaded", function () {
             btn.disabled = false;
         });
     };
+
+    // Muat ucapan yang sudah ada saat halaman pertama kali dibuka
+    loadWishes();
