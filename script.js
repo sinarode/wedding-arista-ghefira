@@ -729,3 +729,5 @@ document.addEventListener("DOMContentLoaded", function () {
             btn.disabled = false;
         });
     };
+
+     loadWishes();
