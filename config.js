@@ -57,7 +57,7 @@ const CONFIG = {
         bride: {
             nickname: "Ghefira",
             fullName: "Ghefira Ramadhani Fakhruzie",
-            parents: "Putri ke 4 dari Bapak M. Zain Fakhruzie & Ibu Isnawaty",
+            parents: "Putri ke 4 dari Bapak M. Zain Fakhruzie, S.H., M.H & Ibu Hj. Isnawaty, S.E",
             instagram: "ahanadiya",
             photo: "ghefira.jpg"
         },
