@@ -57,7 +57,7 @@ const CONFIG = {
         bride: {
             nickname: "Ghefira",
             fullName: "Ghefira Ramadhani Fakhruzie",
-            parents: "Putri ke 4 dari Bapak (Alm) M. Zain Fakhruzie, S.H., M.H & Ibu Hj. Isnawaty, S.E",
+            parents: "Putri ke 4 dari Bapak M. Zain Fakhruzie & Ibu Isnawaty",
             instagram: "ahanadiya",
             photo: "ghefira.jpg"
         },
@@ -81,10 +81,10 @@ const CONFIG = {
             day: "Minggu",
             month: "November",
             year: "2026",
-            location: "Aula mesjid Hassanuddin Majedie",
-            address: " Jl. Brigjend H. basri, Kayutangi, Kec. Banjarmasin Utara",
+            location: "Depot Lesehan Tepi Sungai (LEPISA)",
+            address: " Jl. Banua Anyar No.ujung, Benua Anyar, Banjarmasin Timur",
             time: "09.00 WITA - Selesai",
-            mapsLink: "https://maps.app.goo.gl/TLmoXaYvMKLQZf2PA?g_st=ic"
+            mapsLink: "https://maps.app.goo.gl/DUawqLz95EAzSBKS6"
         }
     },
 
